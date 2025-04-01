@@ -128,7 +128,7 @@
         </dependency>
         <dependency>
             <groupId>com.github.x3ntany.AnnotatedYAMLConfiguration</groupId>
-            <artifactId>AnnotatedYAMLConfiguration-standalone</artifactId>
+            <artifactId>AnnotatedYAMLConfiguration-bukkit</artifactId>
             <version>1.2</version>
         </dependency>
         <dependency>
