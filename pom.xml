@@ -73,6 +73,10 @@
 
     <repositories>
         <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+        <repository>
             <id>spigotmc-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
@@ -111,10 +115,6 @@
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
         </repository>
-        <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
-        </repository>
     </repositories>
 
     <dependencies>
@@ -125,15 +125,15 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.x3ntany.AnnotatedYAMLConfiguration</groupId>
-            <artifactId>AnnotatedYAMLConfiguration</artifactId>
-            <version>1.2</version>
-        </dependency>
-        <dependency>
             <groupId>net.essentialsx</groupId>
             <artifactId>EssentialsX</artifactId>
             <version>2.19.0</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.x3ntany.AnnotatedYAMLConfiguration</groupId>
+            <artifactId>AnnotatedYAMLConfiguration-standalone</artifactId>
+            <version>1.2</version>
         </dependency>
         <dependency>
             <groupId>com.github.LeonMangler</groupId>
