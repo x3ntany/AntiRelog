@@ -111,6 +111,10 @@
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
         </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -120,11 +124,10 @@
             <version>1.19.4-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
-        <!-- maven repo is dead, do `mvn clean install` your self https://github.com/Leymooo/AnnotatedYAMLConfiguration -->
         <dependency>
-            <groupId>ru.leymooo</groupId>
-            <artifactId>AnnotatedYAMLConfiguration-bukkit</artifactId>
-            <version>1.2-SNAPSHOT</version>
+            <groupId>com.github.x3ntany.AnnotatedYAMLConfiguration</groupId>
+            <artifactId>AnnotatedYAMLConfiguration</artifactId>
+            <version>1.2</version>
         </dependency>
         <dependency>
             <groupId>net.essentialsx</groupId>
@@ -173,7 +176,7 @@
         <dependency>
             <groupId>com.comphenix.protocol</groupId>
             <artifactId>ProtocolLib</artifactId>
-            <version>4.7.1-SNAPSHOT</version>
+            <version>5.3.0</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
